@@ -13,13 +13,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.6.1</version>
-				<executions>
-			    <execution>
-			      <goals>
-			        <goal>clean</goal>
-			      </goals>
-		      </execution>
-		      </executions>
+				
             </plugin>
             <plugin>
 
