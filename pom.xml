@@ -16,7 +16,7 @@
 				<executions>
 			    <execution>
 			      <goals>
-			        <goal>exploded</goal>
+			        <goal>clean</goal>
 			      </goals>
 		      </execution>
 		      </executions>
