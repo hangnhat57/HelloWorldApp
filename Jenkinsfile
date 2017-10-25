@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        build(propagate: true, job: 'build')
+        sh 'mvn clean'
       }
     }
     stage('test') {
       steps {
-        build(job: 'test', propagate: true)
+        sh 'mvn clean'
       }
     }
   }
